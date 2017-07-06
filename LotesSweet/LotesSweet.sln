@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotesSweet", "LotesSweet\LotesSweet.csproj", "{2B366B9D-CC1C-4D25-8E92-46CA5B6D1928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com", "com\com.csproj", "{EDF7A48E-2E0F-427F-8DB4-22FAB5BDD446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.sweetandcoffee", "com.sweetandcoffee\com.sweetandcoffee.csproj", "{068D6A15-65FC-4FB9-8902-A4E993FAD1A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2B366B9D-CC1C-4D25-8E92-46CA5B6D1928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B366B9D-CC1C-4D25-8E92-46CA5B6D1928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B366B9D-CC1C-4D25-8E92-46CA5B6D1928}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDF7A48E-2E0F-427F-8DB4-22FAB5BDD446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDF7A48E-2E0F-427F-8DB4-22FAB5BDD446}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDF7A48E-2E0F-427F-8DB4-22FAB5BDD446}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDF7A48E-2E0F-427F-8DB4-22FAB5BDD446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068D6A15-65FC-4FB9-8902-A4E993FAD1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068D6A15-65FC-4FB9-8902-A4E993FAD1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068D6A15-65FC-4FB9-8902-A4E993FAD1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068D6A15-65FC-4FB9-8902-A4E993FAD1A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

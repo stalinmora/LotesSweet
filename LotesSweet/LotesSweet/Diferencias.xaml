@@ -1,14 +1,14 @@
-﻿<Window x:Class="LotesSweet.MainWindow"
+﻿<Window x:Class="LotesSweet.Diferencias"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LotesSweet"
         mc:Ignorable="d"
-        Title="Lotes SweetAndCoffee" Height="376.168" Width="628.841" FontSize="10" ResizeMode="NoResize">
+        Title="Diferencias" Height="129.906" Width="319.626" FontSize="10" ResizeMode="NoResize">
     <Grid>
-        <DataGrid Margin="10,10,10,49"/>
-        <Button Content="Imprimir Diferencias" Margin="498,0,10,17" Height="19" VerticalAlignment="Bottom" RenderTransformOrigin="0.495,0.712" FontSize="10"/>
+        <DataGrid Margin="10,10,10,34"/>
+        <Button Content="Corregir" HorizontalAlignment="Left" Height="19" Margin="174,72,0,0" VerticalAlignment="Top" Width="130"/>
 
     </Grid>
 </Window>

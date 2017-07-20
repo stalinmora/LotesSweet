@@ -5,9 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LotesSweet"
         mc:Ignorable="d"
-        Title="Lotes SweetAndCoffee" Height="376.168" Width="628.841" FontSize="10" ResizeMode="NoResize">
+        Title="Lotes SweetAndCoffee" Height="376.168" Width="650" FontSize="11" ResizeMode="NoResize">
     <Grid>
-        <DataGrid Margin="10,10,10,49"/>
+        <DataGrid x:Name="Lotes" Width="600" BorderBrush="Black" Margin="10,10,10,49" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeRows="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Codigo}" Width="50" Header="Codigo"/>
+                <DataGridTextColumn Binding="{Binding Descripcion}" Width="270" Header="Descripcion"/>
+                <DataGridTextColumn Binding="{Binding StockFront}" Width="65" Header="Stock Front"/>
+                <DataGridTextColumn Binding="{Binding StockLotes}" Width="65" Header="Stock Lotes"/>
+                <DataGridTextColumn Binding="{Binding Diferencia}" Width="60" Header="Diferencia"/>
+                <DataGridTemplateColumn Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnCorregir" Tag="{Binding}" Width="70" Click="btnCorregir_Click">Corregir</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
         <Button Content="Imprimir Diferencias" Margin="498,0,10,17" Height="19" VerticalAlignment="Bottom" RenderTransformOrigin="0.495,0.712" FontSize="10"/>
 
     </Grid>

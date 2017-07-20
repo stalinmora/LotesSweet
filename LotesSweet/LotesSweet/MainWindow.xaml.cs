@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using com.sweetandcoffee.LogicaNegocio;
+using com.sweetandcoffee.Entidades;
+using System.Configuration;
 
 namespace LotesSweet
 {
@@ -23,6 +26,14 @@ namespace LotesSweet
         public MainWindow()
         {
             InitializeComponent();
+            LotesBol lotes = new LotesBol();
+            Lotes.ItemsSource = lotes.Todos();
+        }
+
+        private void btnCorregir_Click(object sender, RoutedEventArgs e)
+        {
+            ELote lote = ((Button)sender).Tag as ELote;
+            MessageBox.Show(lote.Descripcion);
         }
     }
 }

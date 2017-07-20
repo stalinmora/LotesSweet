@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace com.sweetandcoffee.Entidades
 {
-    class ELotes
+    public class ELote
     {
-        public int codigo { get; set; }
+        public int Codigo { get; set; }
         public string Descripcion { get; set; }
-        public float StockLotes { get; set; } 
-        public float Lotes { get; set; }
+        public decimal StockFront { get; set; } 
+        public decimal StockLotes { get; set; }
+        public decimal Diferencia { get; set; }
     }
 }

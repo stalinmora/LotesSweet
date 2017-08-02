@@ -23,5 +23,10 @@ namespace LotesSweet
         {
             InitializeComponent();
         }
+
+        public Diferencias(int codigo, decimal diferencias)
+        {
+            InitializeComponent();
+        }
     }
 }

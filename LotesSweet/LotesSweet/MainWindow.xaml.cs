@@ -33,7 +33,18 @@ namespace LotesSweet
         private void btnCorregir_Click(object sender, RoutedEventArgs e)
         {
             ELote lote = ((Button)sender).Tag as ELote;
+            /*
+            
             MessageBox.Show(lote.Descripcion);
+            */
+            Diferencias diferencias = new Diferencias(lote.Codigo,lote.Diferencia);
+            diferencias.Owner = this;
+            diferencias.ShowDialog();
+        }
+
+        private void btnImprimirDiferencias_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

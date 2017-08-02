@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LotesSweet"
         mc:Ignorable="d"
-        Title="Diferencias" Height="129.906" Width="319.626" FontSize="10" ResizeMode="NoResize">
+        Title="Diferencias" Height="157.906" Width="341.626" FontSize="10" ResizeMode="NoResize">
     <Grid>
         <DataGrid Margin="10,10,10,34"/>
-        <Button Content="Corregir" HorizontalAlignment="Left" Height="19" Margin="174,72,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button Content="Corregir" Margin="174,0,10,10" Height="19" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>

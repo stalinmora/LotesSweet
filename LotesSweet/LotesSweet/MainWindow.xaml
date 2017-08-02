@@ -23,7 +23,7 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Imprimir Diferencias" Margin="498,0,10,17" Height="19" VerticalAlignment="Bottom" RenderTransformOrigin="0.495,0.712" FontSize="10"/>
+        <Button x:Name="btnImprimirDiferencias" Content="Imprimir Diferencias" Margin="486,0,22,13" RenderTransformOrigin="0.495,0.712" FontSize="10" Height="22" VerticalAlignment="Bottom" Click="btnImprimirDiferencias_Click"/>
 
     </Grid>
 </Window>
